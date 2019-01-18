@@ -1,9 +1,9 @@
 [
 {
-  "modid": "vinium",
-  "name": "Vinium",
+  "modid": "vinum",
+  "name": "Vinum",
   "description": "It's aboutta get lit in here.",
-  "version": "${version}",
+  "version": "0.0.1",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
@@ -11,6 +11,6 @@
   "credits": "",
   "logoFile": "v-logo.png",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["mod_Forge"]
 }
 ]
