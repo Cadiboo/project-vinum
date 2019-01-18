@@ -1,13 +1,13 @@
 [
 {
   "modid": "vinum",
-  "name": "Vinum",
-  "description": "It's aboutta get lit in here.",
-  "version": "0.0.1",
+  "name": "§5Vinum",
+  "description": "§5§oIt's aboutta get lit in here.",
+  "version": "§5",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/boredhero/project-vinum",
   "updateUrl": "",
-  "authorList": ["Noah Martino"],
+  "authorList": ["§5§lNoah Martino"],
   "credits": "",
   "logoFile": "v-logo.png",
   "screenshots": [],

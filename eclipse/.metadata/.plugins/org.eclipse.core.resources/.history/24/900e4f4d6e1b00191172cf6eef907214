@@ -1,0 +1,16 @@
+[
+{
+  "modid": "vinum",
+  "name": "Vinum",
+  "description": "It's aboutta get lit in here.",
+  "version": "0.0.1",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Noah Martino"],
+  "credits": "",
+  "logoFile": "v-logo.png",
+  "screenshots": [],
+  "dependencies": ["mod_Forge"]
+}
+]
