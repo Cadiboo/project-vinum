@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.SidedProxy"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.event.FMLPostInitializationEvent"/>
+<fullyQualifiedTypeName name="com.bored.vinum.proxy.CommonProxy"/>
+<fullyQualifiedTypeName name="com.bored.vinum.Vinum"/>
+<fullyQualifiedTypeName name="com.bored.vinum.ui.VinumTab"/>
+</qualifiedTypeNameHistroy>
