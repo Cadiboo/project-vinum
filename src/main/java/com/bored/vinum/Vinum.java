@@ -16,7 +16,7 @@ import com.bored.vinum.ui.VinumTab;
 public class Vinum
 {
     public static final String modid = "vinum";
-    public static final String name = "Project Vinum";
+    public static final String name = "Vinium";
     public static final String version = "0.0.1";
     
     @Mod.Instance(modid)
