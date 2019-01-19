@@ -16,4 +16,5 @@
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventHandler"/>
 <fullyQualifiedTypeName name="vinum.bored.vinum.Vinum"/>
+<fullyQualifiedTypeName name="vinum.bored.vinum.crops.VinumSeeds"/>
 </qualifiedTypeNameHistroy>
