@@ -5,4 +5,15 @@
 <fullyQualifiedTypeName name="com.bored.vinum.proxy.CommonProxy"/>
 <fullyQualifiedTypeName name="com.bored.vinum.Vinum"/>
 <fullyQualifiedTypeName name="com.bored.vinum.ui.VinumTab"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventBusSubscriber"/>
+<fullyQualifiedTypeName name="vinum.bored.vinum.item.ModItems"/>
+<fullyQualifiedTypeName name="vinum.bored.vinum.block.ModBlocks"/>
+<fullyQualifiedTypeName name="net.minecraftforge.event.RegistryEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.event.RegistryEvent.Register"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.eventhandler.SubscribeEvent"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraftforge.client.event.ModelRegistryEvent"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventHandler"/>
+<fullyQualifiedTypeName name="vinum.bored.vinum.Vinum"/>
 </qualifiedTypeNameHistroy>
