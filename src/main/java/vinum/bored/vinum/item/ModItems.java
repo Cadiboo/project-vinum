@@ -1,7 +1,6 @@
 package vinum.bored.vinum.item;
 
 import vinum.bored.vinum.Vinum;
-import vinum.bored.vinum.crops.VinumSeeds;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
@@ -9,7 +8,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 public class ModItems {
 	
 	public static ItemBase coke = new ItemBase("coke").setCreativeTab(Vinum.creativeTab);
-	public static VinumSeeds bituminousCoal = new ItemBase("bituminous_coal").setCreativeTab(Vinum.creativeTab);
+	public static ItemBase bituminouscoal = new ItemBase("bituminouscoal").setCreativeTab(Vinum.creativeTab);
 	//public static ItemBase canOfSlimoline = new ItemBase("can_of_slimoline").setCreativeTab(MoreFuelsMod.creativeTab);
 	//public static ItemBase compressedPelletFuel = new ItemBase("compressed_pellet_fuel").setCreativeTab(MoreFuelsMod.creativeTab);
 	//public static ItemBase coalDust = new ItemBase("coal_dust").setCreativeTab(MoreFuelsMod.creativeTab);
@@ -22,7 +21,7 @@ public class ModItems {
 	public static void register (IForgeRegistry<Item> registry) {
 		registry.registerAll(
 				coke,
-				bituminousCoal
+				bituminouscoal
 				//canOfSlimoline,
 				//compressedPelletFuel,
 				//coalDust,
@@ -36,7 +35,7 @@ public class ModItems {
 	
 	public static void registerModels() {
 		coke.registerItemModel();
-		bituminousCoal.registerItemModel();
+		bituminouscoal.registerItemModel();
 		//canOfSlimoline.registerItemModel();
 		//compressedPelletFuel.registerItemModel();
 		//coalDust.registerItemModel();

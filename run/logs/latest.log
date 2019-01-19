@@ -1,86 +1,180 @@
-[19:30:14] [main/INFO] [GradleStart]: Extra: []
-[19:30:14] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Noah/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[19:30:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[19:30:14] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[19:30:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[19:30:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[19:30:14] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2807 for Minecraft 1.12.2 loading
-[19:30:14] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_192, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_192
-[19:30:14] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[19:30:14] [main/ERROR] [FML]: Full: C:\Users\Noah\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[19:30:14] [main/ERROR] [FML]: Trimmed: c:/users/noah/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[19:30:14] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[19:30:14] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[19:30:15] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[19:30:15] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[19:30:15] [main/INFO] [FML]: Searching S:\Coding\project-vinum\run\.\mods for mods
-[19:30:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[19:30:15] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[19:30:15] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[19:30:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:30:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:30:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[19:30:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:30:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:30:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:30:16] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[19:30:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:30:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:30:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[19:30:16] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:30:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:30:16] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[19:30:17] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player542
-[19:30:19] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[19:30:19] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[19:30:20] [Client thread/INFO] [FML]: -- System Details --
+[15:26:38] [main/INFO] [GradleStart]: Extra: []
+[15:26:38] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Noah/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:26:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:26:38] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:26:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:26:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:26:38] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2807 for Minecraft 1.12.2 loading
+[15:26:38] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_192, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_192
+[15:26:38] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[15:26:38] [main/ERROR] [FML]: Full: C:\Users\Noah\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[15:26:38] [main/ERROR] [FML]: Trimmed: c:/users/noah/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[15:26:38] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[15:26:38] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[15:26:39] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[15:26:39] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[15:26:39] [main/INFO] [FML]: Searching S:\Coding\project-vinum\run\.\mods for mods
+[15:26:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:26:39] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[15:26:39] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[15:26:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:26:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:26:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:26:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:26:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:26:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:26:40] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[15:26:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:26:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:26:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:26:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:26:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:26:40] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[15:26:41] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player725
+[15:26:43] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[15:26:43] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[15:26:44] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_192, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 866425024 bytes (826 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	Memory: 865489176 bytes (825 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
 	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.13543 Compatibility Profile Context 25.20.15003.5010' Renderer: 'AMD Radeon (TM) R9 Fury Series'
-[19:30:20] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2807 Initialized
-[19:30:20] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[19:30:20] [Client thread/INFO] [FML]: Replaced 1036 ore ingredients
-[19:30:20] [Client thread/INFO] [FML]: Searching S:\Coding\project-vinum\run\.\mods for mods
-[19:30:21] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
-[19:30:21] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, vinum] at CLIENT
-[19:30:21] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, vinum] at SERVER
-[19:30:21] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vinum
-[19:30:22] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[19:30:22] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[19:30:22] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[19:30:22] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[19:30:22] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[19:30:22] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[19:30:22] [Client thread/INFO] [STDOUT]: [vinum.bored.vinum.Vinum:preInit:46]: Vinum 0.0.1 is loading!
-[19:30:22] [Client thread/INFO] [FML]: Applying holder lookups
-[19:30:22] [Client thread/INFO] [FML]: Holder lookups applied
-[19:30:22] [Client thread/INFO] [FML]: Applying holder lookups
-[19:30:22] [Client thread/INFO] [FML]: Holder lookups applied
-[19:30:22] [Client thread/INFO] [FML]: Applying holder lookups
-[19:30:22] [Client thread/INFO] [FML]: Holder lookups applied
-[19:30:22] [Client thread/INFO] [FML]: Applying holder lookups
-[19:30:22] [Client thread/INFO] [FML]: Holder lookups applied
-[19:30:22] [Client thread/INFO] [FML]: Injecting itemstacks
-[19:30:22] [Client thread/INFO] [FML]: Itemstack injection complete
-[19:30:22] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[19:30:22] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 112420800 nanos
-[19:30:24] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[19:30:24] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[19:30:24] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[19:30:24] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[19:30:24] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[19:30:27] [Client thread/INFO] [FML]: Max texture size: 16384
-[19:30:28] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
-[19:30:28] [Client thread/ERROR] [FML]: Exception loading model for variant vinum:block_coke#normal for blockstate "vinum:block_coke"
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model vinum:block_coke#normal with loader VariantLoader.INSTANCE, skipping
+[15:26:44] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2807 Initialized
+[15:26:44] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[15:26:44] [Client thread/INFO] [FML]: Replaced 1036 ore ingredients
+[15:26:44] [Client thread/INFO] [FML]: Searching S:\Coding\project-vinum\run\.\mods for mods
+[15:26:45] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[15:26:45] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, vinum] at CLIENT
+[15:26:45] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, vinum] at SERVER
+[15:26:45] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vinum
+[15:26:45] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[15:26:45] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[15:26:45] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[15:26:45] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[15:26:45] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[15:26:45] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[15:26:45] [Client thread/INFO] [STDOUT]: [vinum.bored.vinum.Vinum:preInit:46]: Vinum 0.0.1 is loading!
+[15:26:45] [Client thread/INFO] [FML]: Applying holder lookups
+[15:26:45] [Client thread/INFO] [FML]: Holder lookups applied
+[15:26:45] [Client thread/INFO] [FML]: Applying holder lookups
+[15:26:45] [Client thread/INFO] [FML]: Holder lookups applied
+[15:26:45] [Client thread/INFO] [FML]: Applying holder lookups
+[15:26:45] [Client thread/INFO] [FML]: Holder lookups applied
+[15:26:45] [Client thread/INFO] [FML]: Applying holder lookups
+[15:26:45] [Client thread/INFO] [FML]: Holder lookups applied
+[15:26:45] [Client thread/INFO] [FML]: Injecting itemstacks
+[15:26:45] [Client thread/INFO] [FML]: Itemstack injection complete
+[15:26:46] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[15:26:46] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 97366700 nanos
+[15:26:48] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[15:26:48] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[15:26:48] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:26:48] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[15:26:48] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[15:26:51] [Client thread/INFO] [FML]: Max texture size: 16384
+[15:26:51] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[15:26:52] [Client thread/ERROR] [FML]: Exception loading model for variant vinum:blockcoke#inventory for item "vinum:blockcoke", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model vinum:item/blockcoke with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.io.FileNotFoundException: vinum:models/item/blockcoke.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[15:26:52] [Client thread/ERROR] [FML]: Exception loading model for variant vinum:blockcoke#inventory for item "vinum:blockcoke", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model vinum:blockcoke#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[15:26:52] [Client thread/ERROR] [FML]: Exception loading blockstate for the variant vinum:blockcoke#inventory: 
+java.lang.Exception: Could not load model definition for variant vinum:blockcoke
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model vinum:blockstates/blockcoke.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 20 more
+Caused by: java.io.FileNotFoundException: vinum:blockstates/blockcoke.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 20 more
+[15:26:52] [Client thread/ERROR] [FML]: Exception loading model for variant vinum:blockcoke#normal for blockstate "vinum:blockcoke"
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model vinum:blockcoke#normal with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
@@ -108,268 +202,50 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
 	... 21 more
-[19:30:28] [Client thread/ERROR] [FML]: Exception loading blockstate for the variant vinum:block_coke#normal: 
-java.lang.Exception: Could not load model definition for variant vinum:block_coke
-	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model vinum:blockstates/block_coke.json
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[ModelBakery.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
-	... 20 more
-Caused by: java.io.FileNotFoundException: vinum:blockstates/block_coke.json
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:83) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[ModelBakery.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
-	... 20 more
-[19:30:28] [Client thread/ERROR] [FML]: Exception loading model for variant vinum:bituminous_coal#inventory for item "vinum:bituminous_coal", normal location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model vinum:item/bituminous_coal with loader VanillaLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: java.io.FileNotFoundException: vinum:models/item/bituminous_coal.json
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:69) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[19:30:28] [Client thread/ERROR] [FML]: Exception loading model for variant vinum:bituminous_coal#inventory for item "vinum:bituminous_coal", blockstate location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model vinum:bituminous_coal#inventory with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
-	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[19:30:28] [Client thread/ERROR] [FML]: Exception loading model for variant vinum:coke#inventory for item "vinum:coke", normal location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model vinum:item/coke with loader VanillaLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: java.io.FileNotFoundException: vinum:models/item/coke.json
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:69) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[19:30:28] [Client thread/ERROR] [FML]: Exception loading model for variant vinum:coke#inventory for item "vinum:coke", blockstate location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model vinum:coke#inventory with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
-	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[19:30:28] [Client thread/ERROR] [FML]: Exception loading model for variant vinum:block_coke#inventory for item "vinum:block_coke", normal location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model vinum:item/block_coke with loader VanillaLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: java.io.FileNotFoundException: vinum:models/item/block_coke.json
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:69) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[19:30:28] [Client thread/ERROR] [FML]: Exception loading model for variant vinum:block_coke#inventory for item "vinum:block_coke", blockstate location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model vinum:block_coke#inventory with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_192]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_192]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_192]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
-	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[19:30:29] [Client thread/INFO] [FML]: Applying holder lookups
-[19:30:29] [Client thread/INFO] [FML]: Holder lookups applied
-[19:30:29] [Client thread/INFO] [FML]: Injecting itemstacks
-[19:30:29] [Client thread/INFO] [FML]: Itemstack injection complete
-[19:30:29] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
-[19:30:29] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[19:30:29] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[19:30:30] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[19:30:34] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[19:30:34] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[19:30:34] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[19:30:35] [Server thread/INFO] [FML]: Applying holder lookups
-[19:30:35] [Server thread/INFO] [FML]: Holder lookups applied
-[19:30:35] [Server thread/INFO] [FML]: Loading dimension 0 (0.0.1) (net.minecraft.server.integrated.IntegratedServer@72b80d1d)
-[19:30:35] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[19:30:35] [Server thread/INFO] [FML]: Loading dimension -1 (0.0.1) (net.minecraft.server.integrated.IntegratedServer@72b80d1d)
-[19:30:35] [Server thread/INFO] [FML]: Loading dimension 1 (0.0.1) (net.minecraft.server.integrated.IntegratedServer@72b80d1d)
-[19:30:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[19:30:36] [Server thread/INFO] [FML]: Unloading dimension -1
-[19:30:36] [Server thread/INFO] [FML]: Unloading dimension 1
-[19:30:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
-[19:30:37] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[19:30:37] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[19:30:37] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,vinum@0.0.1,FML@8.0.99.99,forge@14.23.5.2807,mcp@9.42
-[19:30:37] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[19:30:37] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:30:37] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player542[local:E:32d261a2] logged in with entity id 91 at (-1410.224175104162, 6.537577040867343, -216.7215736050383)
-[19:30:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player542 joined the game
-[19:30:37] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[19:30:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level '0.0.1'/overworld
-[19:30:38] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@6a7f324e[id=ca200422-e977-3e4c-ad0b-8fd2f35df23f,name=Player542,properties={},legacy=false]
-com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
-	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3182) [Minecraft.class:?]
-	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_192]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_192]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_192]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_192]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_192]
-[19:30:53] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 8 advancements
-[19:31:18] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[19:31:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level '0.0.1'/overworld
-[19:33:13] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[19:33:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level '0.0.1'/overworld
+[15:26:52] [Client thread/INFO] [FML]: Applying holder lookups
+[15:26:52] [Client thread/INFO] [FML]: Holder lookups applied
+[15:26:52] [Client thread/INFO] [FML]: Injecting itemstacks
+[15:26:52] [Client thread/INFO] [FML]: Itemstack injection complete
+[15:26:52] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[15:26:52] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[15:26:52] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[15:26:53] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[15:26:55] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[15:26:55] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[15:26:55] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[15:26:55] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world vinum:block_coke
+[15:26:55] [Server thread/INFO] [FML]: Applying holder lookups
+[15:26:55] [Server thread/INFO] [FML]: Holder lookups applied
+[15:26:55] [Server thread/INFO] [FML]: Loading dimension 0 (0.0.1) (net.minecraft.server.integrated.IntegratedServer@4f8c892a)
+[15:26:56] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[15:26:56] [Server thread/INFO] [FML]: Loading dimension -1 (0.0.1) (net.minecraft.server.integrated.IntegratedServer@4f8c892a)
+[15:26:56] [Server thread/INFO] [FML]: Loading dimension 1 (0.0.1) (net.minecraft.server.integrated.IntegratedServer@4f8c892a)
+[15:26:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[15:26:56] [Server thread/INFO] [FML]: Unloading dimension -1
+[15:26:56] [Server thread/INFO] [FML]: Unloading dimension 1
+[15:26:56] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[15:26:57] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[15:26:57] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[15:26:57] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,vinum@0.0.1,FML@8.0.99.99,forge@14.23.5.2807,mcp@9.42
+[15:26:57] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[15:26:57] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[15:26:57] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player725[local:E:81249d50] logged in with entity id 145 at (-1455.0932235379246, 6.49390748022948, -200.38266526061415)
+[15:26:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player725 joined the game
+[15:26:58] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[15:26:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level '0.0.1'/overworld
+[15:26:58] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 8 advancements
+[15:27:00] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[15:27:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level '0.0.1'/overworld
+[15:27:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[15:27:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[15:27:00] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player725 lost connection: Disconnected
+[15:27:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player725 left the game
+[15:27:00] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[15:27:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[15:27:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level '0.0.1'/overworld
+[15:27:00] [Server thread/INFO] [FML]: Unloading dimension 0
+[15:27:00] [Server thread/INFO] [FML]: Applying holder lookups
+[15:27:00] [Server thread/INFO] [FML]: Holder lookups applied
+[15:27:02] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[15:27:02] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[15:27:02] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
