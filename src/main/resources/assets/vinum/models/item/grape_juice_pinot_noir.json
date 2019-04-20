@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "vinum:items/grape_juice_pinot_noir"
+    }
+}

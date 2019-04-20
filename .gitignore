@@ -1,5 +1,4 @@
 #Folders
-run/
 eclipse/
 .settings/
 build/
@@ -15,3 +14,4 @@ build/
 /project-vinum_Client.launch
 /project-vinum_Server.launch
 
+/bin/
