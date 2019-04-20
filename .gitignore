@@ -1,9 +1,17 @@
+#Folders
+run/
+eclipse/
+.settings/
+build/
+#Files
+/.classpath
+/.project
 /CREDITS-fml.txt
-/forge-1.12.2-14.23.5.2807-changelog.txt
+/forge-1.12.2-14.23.5.2443-changelog.txt
 /LICENSE-new.txt
 /MinecraftForge-Credits.txt
-/project-vinum_Client.launch
-/project_Server.launch
 /Paulscode IBXM Library License.txt
 /Paulscode SoundSystem CodecIBXM License.txt
-/README.txt
+/project-vinum_Client.launch
+/project-vinum_Server.launch
+
